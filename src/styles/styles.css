@@ -3,3 +3,51 @@
     padding: 0; /* Espaçamentos internos */
     box-sizing: border-box; /* Tamanho da caixa */
 }
+
+body {
+    font-family: Arial;
+    background-color:#E6E6FA;
+}
+
+div {
+    font-family: Arial;
+    background-color: rgb(179, 175, 238);
+    max-width: 450px;
+    margin: auto;
+    margin-top: 300px;
+    padding: 40px;
+    border-radius: 20px;
+}
+
+input{
+    border: 1px solid;
+    flex: 1;
+}
+
+.adicionar {
+    font-family: Arial;
+    background-color: palegreen;
+    border: 1px solid;
+    color:black;
+    padding: 2px;
+    margin-left: 5px;
+}
+
+.excluir {
+    font-family: Arial;
+    background-color: rgb(179, 175, 238);
+    border: 1px solid;
+    color:black;
+    padding: 2px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+li {
+  list-style: none; /* Remove bolinha da lista */
+  padding: 10px; /* Espaçamento interno */
+  border-bottom: 1px solid #ddd; /* Linha divisória */
+  display: flex; /* Layout em linha */
+  justify-content: space-between; /* Espaço entre texto e botão */
+  align-items: center; /* Alinha verticalmente */
+}
